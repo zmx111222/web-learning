@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <script type="text/javascript">
+
+
+              var flag=0;   //标志为0 的时候被除数没有被整除
+
+        	  for(var i=1;i<=10;i++){  //获取被除数
+
+    				 //获取到当前数字的除数
+        	  		 for(var j=2; j<i;j++){   
+
+        	  		 	  if(i%j==0){
+
+        	  		 	  	  //表示被除数已被整除，该数字不是质数
+        	  		 	  	  flag=1;  
+        	  		 	  	  
+        	  		 	  	  break;
+        	  		 	  }
+        	  		 	  else{
+
+        	  		 	  	  flag=0;  //表示被除数没有被整除
+        	  		 	  }
+        	  		 }
+
+        	  		 if(flag==0 && i!=1){
+
+ 						console.log(i);
+        	  		 }
+
+
+        
+        	  		 // if(i==j){
+
+        	  		 // 	 console.log(i);
+        	  		 // }
+        	  }
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

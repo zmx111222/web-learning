@@ -1,0 +1,507 @@
+/*
+* @Author: dhl
+* @Date:   2016-03-29 16:56:29
+* @Last Modified by:   dhl
+* @Last Modified time: 2016-03-29 17:08:39
+*/
+             /* css初始化 */
+			 div,p,h1,h2,h3,h4,h5,h6,a{
+			 	 font: 12px 宋体;
+			 	 text-decoration: none;
+			 }
+
+			 ul,dl,dd,body,h1,h2,h3,h4,h5,h6,p{
+			 	margin: 0;
+			 	padding: 0;
+			 }
+
+			 ul{
+			 	 list-style: none;
+			 }
+
+			 input{
+			 	border: 0 none;
+			 	outline-style: none;
+			 	margin: 0 ;
+			 	padding: 0;
+			 }
+
+
+
+			/* 头部开始 */
+
+			.header{
+				 height: 26px;
+				 border-bottom: 1px solid #D8D8D8;
+				 background-color: #F7F7F7;
+			}
+
+			.h-body{
+				 width: 980px;
+				 height: 26px;
+				 margin: 0 auto;
+			}
+
+			.title{
+				 height: 26px;
+				 line-height: 26px;
+				 float: left;
+			}
+
+			.nav{
+				 float:right;
+
+			}
+
+			.nav li{
+				 float: left;
+				 height: 26px;
+				 line-height: 26px;
+				 background: url("images/sj.png") no-repeat  right;
+			}
+
+			.nav a{
+				 padding: 0 10px;
+				 height: 26px;
+				 display: inline-block;
+				 color: #666666;
+			}
+			.nav a:hover{
+				 color: #E8BE0D;
+			}
+
+			/* 主体部分开始 */
+
+			.m-body{
+				 width: 980px;
+				 margin: 0 auto;
+			}
+
+			/* 搜索部分开始 */
+			.serch{
+				 height: 98px;
+				 overflow: hidden;
+			}
+			
+			/* logo开始 */
+			.log{
+				 width: 200px;
+				 height: 84px;
+				 margin-top: 6px;
+				 float: left;
+			}
+			/* 右边搜索部分开始 */
+			.r-serch{
+				float:right;
+				width: 528px;
+				height: 40px;
+				border: 1px solid #C9C9C9;
+				margin-top: 29px;
+			}
+			/* 输入框 */
+			.r-serch .txt{
+				 height: 28px;
+				 width: 419px;
+				 border: 1px solid #A6A6A6;
+				 border-right: 0 none;
+				 margin-top: 5px;
+				 margin-left: 4px;
+				 float: left;
+			}
+
+			.r-serch .btn{
+				 width: 99px;
+				 height: 30px;
+				 float:left;
+				 margin-top: 5px;
+				 background: url("images/serch.png") ;
+				 cursor: pointer;  /* 鼠标小手显示 */
+			}
+				
+			/* 主体导航 */
+			.m-nav{
+				 height: 25px;
+				 border-bottom: 2px solid #0266A3;
+			}
+
+			.m-nav li{
+				 height: 25px;
+				 float: left;
+			}
+			.m-nav a{
+				 height: 25px;
+				 display: inline-block;
+				 line-height: 25px;
+				 padding: 0 10px;
+			}
+
+			.m-nav a:hover{
+				 background-color: #0266A3;
+				 color: white;
+			}
+
+			/* 主体banner部分开始 */
+			.banner{
+       		    height: 210px;
+       		    margin-top: 10px;
+			}
+
+			/* 左侧盒子 */
+
+			.l-banner{
+				 width: 200px;
+				 height: 210px;
+				 float: left;
+			}
+
+
+			/* 商机市场 */
+
+			.t-bnner{
+				 height: 30px;
+				 background-color: #0266A3;
+				 line-height: 30px;
+				 padding-left: 20px;
+				 color: white;
+			}
+
+
+			/* 列表导航 */
+
+			.l-banner ul{
+				 height: 180px;
+				 background-color: #EBF0F6;
+				 overflow: hidden;
+			}
+
+			.l-banner li{
+				 height: 18px;
+				 margin-left: 9px;
+				 margin-top: 11px;
+				 padding-left: 30px;
+				
+			}
+
+			.l-banner li.one{
+				 background: url("images/icon_1.png") no-repeat ;
+			}
+
+			.l-banner li.two{
+				 background: url("images/icon_2.png") no-repeat ;
+			}
+
+			.l-banner li.three{
+				 background: url("images/icon_3.png") no-repeat ;
+			}
+			.l-banner li.four{
+				 background: url("images/icon_4.png") no-repeat ;
+			}
+			.l-banner li.five{
+				 background: url("images/icon_5.png") no-repeat ;
+			}
+			.l-banner li.six{
+				 background: url("images/icon_6.png") no-repeat ;
+			}
+
+			.l-banner a{
+				  color: #606060;
+			}
+
+
+			/* 中间的盒子 */
+
+			.m-banner{
+				 height: 212px;
+				 width: 520px;
+				 float: left;
+				 margin-left: 11px;
+			}
+
+
+			/* 右边的盒子 */
+
+			.r-banner{
+				 width: 230px;
+				 height: 210px;
+				 float: right;
+			}
+
+
+			/* 右上盒子 */
+
+			.rt-banner{
+				 width: 228px;
+				 height: 95px;
+				 border: 1px solid #E0E6F0;
+			}
+
+
+			/* 右下盒子 */
+
+			.rb-banner{
+				 width: 234px;
+				 height: 96px;
+				 margin-top: 18px;
+			}
+
+
+			/* 建筑材料开始 */
+			.jzcl{
+				height: 34px;
+				background-color: ;
+				border-top: 2px solid #C3D7E4;
+				line-height: 34px;
+				margin-top: 10px;
+				background-color:#ECF1F7;
+				padding-left: 21px;
+				font-weight: 700;
+			}
+
+
+
+			/* 建筑材料列表 */
+
+			.jzcl-lsit{
+				 margin-top: 10px;
+			}
+			/* 左侧盒子 */
+			.l-list{
+				float:left;
+				width: 727px;
+				height: 344px;
+				border: 1px solid #D8D8D8;
+			}
+
+			/* 右侧盒子 */
+			.r-list{
+				float: right;
+				height: 344px;
+				width: 228px;
+				border: 1px solid #D8D8D8;
+			}
+
+
+
+			/* 上边的盒子 */
+			.lt-list{
+				width: 656px;
+				height: 143px;
+				margin-top: 15px;
+				margin-left: 26px;
+			}
+				
+			/* 中间横线 */
+			.hx{
+				border: 1px solid #EEEEEE;
+
+				margin: 14px 5px;
+			}
+
+			
+			/* 左边盒子 */
+			.ltl-list{
+				height: 143px;
+				width: 319px;
+				float: left;
+			}
+
+			
+			.l-list1{
+				width: 99px;
+				height: 143px;
+				float:left;
+			}
+
+			.r-llist2{
+				 width: 211px;
+				 height: 143px;
+				 float:right;
+			}
+
+
+
+			.t-list{
+				width: 97px;
+				height: 101px;
+				border: 1px solid #CACACA;
+				text-align: center;
+				line-height: 101px;
+			}
+
+			.t-list img{
+				 vertical-align: middle;
+			}
+
+
+			.b-btn input{
+				height: 26px;
+				width: 98px;
+				background: url("images/buy.png");
+				margin-top: 15px;
+				cursor: pointer;   /* 鼠标小手显示 */
+			}
+
+
+
+			.r-llist2  .p1{
+				height: 30px;
+				margin-top: 9px;
+			}
+
+			.r-llist2 .p2{
+				height: 48px;
+			}
+
+			.r-llist2 .p3{
+			   height: 42px;
+			}
+
+
+
+			/* 右侧列表显示 */
+
+			.r-title{
+				 height: 28px;
+				 border-bottom: 1px solid #E0E6F0;
+				 line-height: 28px;
+				 padding-left: 30px;
+				 font-weight: 700;
+			}
+
+			.r-list ul{
+				 margin-top: 18px;
+
+				 margin-left: 10px;
+			}
+			.r-list li{
+				 height: 25px;
+
+				 background: url("images/li_bg.png") no-repeat left  3px;
+
+				 padding-left: 15px;
+			}
+
+			.r-list a{
+				 color: #444444;
+			}
+
+			.r-list a:hover{
+				 color: #15D3D5;
+			}
+
+
+			/* 清除浮动 */
+
+			.clearfix:after{
+				 content: "";
+				 height: 0;
+				 line-height: 0;
+				 display: block;
+				 clear: both;
+				 visibility: hidden;
+			}
+
+			.clearfix{
+				 zoom: 1; 
+			}
+			
+
+			/* 儿童安全座椅 */
+			.etbox{
+				height: 302px;
+				margin-top: 34px;
+				position: relative;
+				margin-bottom: 25px;
+			}
+		
+			.box-left{
+				 height: 302px;
+				 width: 722px;
+				 border: 1px solid #CACACA;
+				 border-top: 2px solid #00B0E7;
+			}
+
+
+			.dw-img{
+				 position: absolute;
+				 top:-23px;
+			}
+
+			.xq{
+				position: absolute;
+				right: 258px;
+				top: -14px;
+			}
+
+
+			/* 座椅列表 */
+
+			.p-div{
+				 width: 163px;
+				 height: 284px;
+				 margin: 5px 12px 0 5px;
+				 float: left;
+
+			}
+
+			.top-div{
+				 width: 164px;
+				 height: 170px;
+			}
+
+			.p-div p{
+				 text-align: center;
+			}
+
+			.p-div .p1{
+				 height: 43px;
+				 margin-top: 8px;
+			}
+			.p-div .p2{
+				  height: 22px;
+			}
+			.p-div .p3{
+				 height: 27px;
+			}
+
+			.box-left{
+				 float: left;
+			}
+
+			/* 右侧盒子 */
+
+			.box-right{
+				 float: right;
+				 height: 302px;
+				 width: 220px;
+
+			}
+
+			.r-boxtop{
+				 width: 218px;
+			     height: 128px;
+				 border: 1px solid #CBCBCB;
+			}
+
+			.r-boxbot{
+				 width: 220px;
+				 height: 175px;
+				 margin-top: 10px;
+			}
+
+/* 图片环绕文字 */
+.hrtp{
+	margin-top: 10px;
+
+	height: 75px;
+
+
+}
+.hrtp img{
+	 float: left;
+}
+
+.hrtp  p{
+	 line-height:  20px;
+}
+

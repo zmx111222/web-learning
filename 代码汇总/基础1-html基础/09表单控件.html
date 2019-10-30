@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+         <form  action="1.php"  method="post">
+         	
+         	<fieldset>
+         	    <legend>用户注册</legend>   	
+         	<!-- 文本输入框 -->
+		   用户名:<input type="text" maxlength="6"   name="username"  value="" >
+			
+			<br>
+			<br>
+
+			<!-- 密码输入框 -->
+			密码：<input type="password" name="pwd" value="123">
+
+			<br>
+			<br>
+		    <!-- 单选按钮 -->
+
+		    性别：
+		   <input type="radio" name="xb"  checked="checked" value="nan">男
+
+		   <input type="radio" name="xb" value="nv" >女
+
+		   <br>
+			<br>
+
+			出生地：
+
+			  省:
+			  <select multiple="multiple">
+				  <option>山东</option>
+				  <option>山西</option>
+				  <option>河南</option>
+				  <option>河北</option>
+				  <option  selected="selected">北京</option>
+			  </select>
+
+
+			  市(区)：
+			   <select id="name">
+			   	
+			   	 <optgroup label="北京市">
+			   	 	
+			   	 	<option> 西城区 </option>
+
+			   	    <option>东城区</option>
+			   	    <option>
+			   	    	 海淀区
+			   	    </option>
+			   	    <option>
+			   	    	 昌平区
+			   	    </option>
+			   	 </optgroup>
+
+
+			   	  <optgroup label="山东省">
+			   	 	
+			   	 	<option> 西城区 </option>
+
+			   	    <option>东城区</option>
+			   	    <option> 海淀区</option>
+			   	    <option> 昌平区</option>
+			   	 </optgroup>
+			   	   
+			   </select>
+
+
+			 <br>
+			 <br>
+
+			 兴趣爱好：
+
+			  <input type="checkbox" checked="checked">抽烟
+			  <input type="checkbox" checked="checked">喝酒
+			  <input type="checkbox" checked="checked">烫头
+
+			  <br>
+			 <br>
+
+			 自我介绍：
+
+			   <textarea>
+			   	
+
+			   </textarea>
+
+			 <br>
+			 <br>
+			
+			头像：
+
+			<input type="file">
+
+		     <br>
+			 <br>
+				
+			  <!-- 表单提交按钮 -->
+			 <input type="submit"  value="登录">
+
+			 <!-- 普通按钮 -->
+
+			 <input type="button"  value="普通按钮" >
+
+
+			 <!-- 重置按钮 -->
+
+			 <input type="reset">
+
+
+			 <!-- 图片按钮 -->
+
+			 <input type="image" src="按钮.jpg">
+
+			
+
+			
+				
+
+			</fieldset>
+
+	
+         </form>
+
+
+         
+
+    </body>
+</html>

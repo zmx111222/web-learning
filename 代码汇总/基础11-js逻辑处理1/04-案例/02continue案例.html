@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+
+        <script type="text/javascript">
+
+        	 // for(var i=1;i<=100;i++){
+
+        	 // 	 if(i%3==0){
+        	 // 	 	 continue;
+        	 // 	 }else{
+        	 // 	 	 console.log(i);
+        	 // 	 }
+        	 // }
+        	
+        	 
+
+        	 var  username=prompt("请输入用户名");
+
+        	 var  pwd=prompt("请输入密码");
+
+
+        	 while(username!="admin"  || pwd!="888"){
+
+        	 	 alert("您的输入有误,请重新输入");
+                 username=prompt("请输入用户名");
+                 pwd=prompt("请输入密码");
+
+                 if(username=="admin" && pwd=="888"){
+                 	 
+                 	 break;
+
+                 }else{
+
+                 	 continue;
+                 }
+
+        	 }
+
+        </script>
+    </head>
+    <body>
+    </body>
+</html>

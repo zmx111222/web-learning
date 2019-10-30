@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+
+        <style type="text/css">
+
+			  input{
+
+			  	  border: none;
+
+			  	  outline-style: none;   /* 去掉轮廓线 */
+			  }
+
+			  .usernme{
+			  	 border: 1px dashed red;
+			  	 background: blue;
+			  }
+
+
+			  .usernme:focus{
+			  	 background-color: yellowgreen;
+			}
+
+			.email{
+				 border-bottom: 1px dotted  red;
+			}
+
+			.serch{
+				 border:1px solid black;
+
+				 background-image:url("search.png");
+				 background-repeat:no-repeat;
+
+				 background-position: right;
+			}
+        </style>
+    </head>
+    <body>
+
+    	<label for="usernme">
+    	   用户名:
+    	</label>
+    	<input type="text" class="usernme" id="usernme">
+
+    	 <br>
+    	 <br>
+    	 <label>邮箱：</label><input type="text" class="email" >
+    	 <br>
+    	 <br>
+    	 <label> 搜索: </label><input type="text" class="serch">
+    </body>
+</html>
